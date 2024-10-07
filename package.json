@@ -83,6 +83,6 @@
     "**/@medusajs/medusa-cli": "link:./node_modules/@medusajs/medusa-cli"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=18.16.0"
   }
 }
