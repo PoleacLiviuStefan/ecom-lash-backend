@@ -15,6 +15,7 @@ const DATABASE_URL =
 module.exports = defineConfig({
   projectConfig: {
     databaseUrl: DATABASE_URL,
+    database_extra: { ssl: { rejectUnauthorized: false } },
     http: {
       storeCors: process.env.STORE_CORS,
       adminCors: process.env.ADMIN_CORS,
